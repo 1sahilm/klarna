@@ -2,18 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Klarna Widget Test</title>
+    <title>Klarna OSM Test</title>
 
-    <!-- Klarna Onsite Messaging script -->
-    <script async src="https://js.klarna.com/merchant.js"></script>
+    <!-- Klarna Web SDK (Playground / Test mode) -->
+    <script
+      async
+      data-environment="playground"
+      src="https://js.klarna.com/web-sdk/v1/klarna.js"
+      data-client-id="klarna_test_client_dyMwRS14KkN6ZyhVMkNzVzhpbkFqc3ohVUlrZFctWVEsMTQ0OGJlYjctNjE4Ny00N2Q1LWFmMGItYWU0MDZmOTMyMjNlLDEscTkrMnhwVTlEb3hodzRKQ1Q5RnlvQ1V3cjE4cGRiVmQ0cUJzVE1WbkpWTT0">
+    </script>
   </head>
   <body>
-    <h1>Testing Klarna Onsite Messaging</h1>
+    <h1>Klarna Onsite Messaging Test sahil</h1>
 
-    <!-- Klarna placement (from your Merchant Portal) -->
+    <!-- Klarna placement -->
     <klarna-placement
       data-key="credit-promotion-auto-size"
-      data-locale="de-AT"
+      data-locale="en-US"
       data-purchase-amount="20000">
     </klarna-placement>
   </body>
