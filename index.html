@@ -2,19 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Klarna Widget Test (Sandbox)</title>
-    <!-- Klarna Onsite Messaging (Sandbox/Test Mode) -->
+    <title>Klarna Widget Test</title>
+
+    <!-- Klarna Onsite Messaging script -->
     <script async src="https://js.klarna.com/merchant.js"></script>
   </head>
   <body>
-    <h1>Testing Klarna Onsite Messaging (Sandbox)</h1>
+    <h1>Testing Klarna Onsite Messaging</h1>
 
-    <!-- Klarna placement -->
-    <div
-      class="klarna-onsite-messaging"
-      data-purchase-amount="20000"
-      data-key="klarna_test_client_dyMwRS14KkN6ZyhVMkNzVzhpbkFqc3ohVUlrZFctWVEsMTQ0OGJlYjctNjE4Ny00N2Q1LWFmMGItYWU0MDZmOTMyMjNlLDEscTkrMnhwVTlEb3hodzRKQ1Q5RnlvQ1V3cjE4cGRiVmQ0cUJzVE1WbkpWTT0"
-      data-locale="en-US"
-    ></div>
+    <!-- Klarna placement (from your Merchant Portal) -->
+    <klarna-placement
+      data-key="credit-promotion-auto-size"
+      data-locale="de-AT"
+      data-purchase-amount="20000">
+    </klarna-placement>
   </body>
 </html>
